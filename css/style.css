@@ -119,110 +119,106 @@ nav .row{
 .footer-bg{
     width: 100%;
     height: 480px;
-    background-color:  #575757;
+    background: #575757;
 }
-.footer-contents{
-    margin: 100px 0 0 0;
-    display: flex;
-    width: 100%;
-}
-.stickers{
-    width: 12%;
-}
-.stickers img{
-    display: block;
-    margin-top: 190px;
-}
-.footer-left{
-    width: 25%;
-}
-.footer-left img{
-    margin-bottom: 200px;
-}
-.footer-left h5{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 180%;
-    color: #bbb9b9;
-}
-.footer-left span{
+.footer strong{
     font-weight: 500;
     font-size: 20px;
     line-height: 180%;
     color: #fff;
 }
-.footer-middle{
-    width: 33%;
-    margin-top: -20px;
+.stickers{
+    width: 10%;
 }
-.footer-middle h2{
+.stickers svg{
+    margin: 180px 0 0 100px;
+}
+.stickers img{
+    margin: 120px 0 0 0;
+}
+.footer-left{
+    width: 27%;
+    margin: 80px 0 0 0;
+}
+.footer-left img{
+    margin-bottom: 200px;
+}
+.footer-left small{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    color: #bbb9b9;
+}
+.footer-mid{
+    width: 30%;
+    margin: 55px 0 0 0;
+}
+.footer-mid h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 200%;
     color: #fff;
 }
-.footer-middle p{
+.footer-mid p{
     font-weight: 400;
     font-size: 16px;
     line-height: 180%;
     text-align: justify;
     color: #bbb9b9;
-    margin-bottom: 105px;
+    margin-bottom: 115px;
 }
-.footer-middle h5{
+.footer-mid small{
     font-weight: 400;
     font-size: 18px;
     line-height: 180%;
+    text-align: justify;
     color: #bbb9b9;
 }
-.footer-middle span{
-    font-weight: 500;
+.footer-right{
+    width: 30%;
+    margin: 120px 0 0 30px;
+    text-align: center;
+    justify-content: center;
+}
+.footer-right a{
     font-size: 20px;
     line-height: 180%;
+    border-radius: 20px;
+    padding: 15px 45px;
+}
+.hero-btn .cv{
+    background: #fc0;
     color: #fff;
+    padding-right: 55px;
+    background-image: url(./lucide_send.png);
+    background-position: calc(100% - 20px) center;
+    background-repeat: no-repeat;
+    background-size: 20px; 
 }
-.footer-rght{
-    width: 37%;
-}
-.footer-btn{
+.follow-links{
+    width: 500px;
     display: flex;
-    border-radius: 16px;
-    width: 174px;
-    height: 63px;
-    background-color: #fc0;
-    justify-content: center;
-    margin: 30px 0 140px 80px;
+    flex-wrap: wrap;
+    margin-top: 120px;
 }
-.footer-btn a{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 180%;
-    color: #fff;
-    margin: 15px 10px 0 0;
-}
-.footer-btn img{
-    margin-top: 17px;
-}
-.f-r-follow{
-    display: flex;
-    width: 300px;
-    justify-content: space-between;
-}
-.f-r-follow p{
+.follow-links p{
     font-weight: 400;
     font-size: 18px;
     line-height: 180%;
     text-align: justify;
     color: #fff;
 }
-.f-r-follow div{
+.follow-links a{
+    width: 50px;
+    margin: -20px 0 0 -20px;
+}
+.a-bg{
     border-radius: 100%;
     background-color: #484848;
     width: 48px;
     height: 48px;
-    text-align: center;
-    margin-top: -10px;
 }
-.f-r-follow div a img{
-    margin: 13px;
+.a-bg img{
+    margin: 12px 0 0 0;
 }
